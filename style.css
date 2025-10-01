@@ -1,0 +1,389 @@
+:root {
+    /* Colors */
+    --white-color: #fff;
+    --dark-color: #252525;
+    --primary-color: #3b131c;
+    --secondary-color: #f3961c;
+    --light-pink-color: #ccc;
+    --logo-color: #d4e0f5;
+
+    /* Font Size */
+    --font-size-s: 0.9rem;
+    --font-size-n: 1rem;
+    --font-size-m: 1.12rem;
+    --font-size-l: 1.5rem;
+    --font-size-xl: 2rem;
+    --font-size-xxl: 2.3rem;
+
+    /* font Weight */
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+
+    /* Border Radius */
+    --border-radius-s: 8px;
+    --border-radius-m: 30px;
+    --border-radius-circle: 50%;
+
+    /* Site max width */
+    --site-max-width: 1300px;
+} 
+
+html {
+  scroll-behavior: smooth;
+  
+}
+
+
+* {
+    font-family: Montserrat;
+}
+.navbar {
+    border-bottom: var(--logo-color) 1px solid;
+    position: sticky;
+    top: 0;
+    z-index: 1030;
+}
+
+#logo  {
+  width: 200px; 
+  max-width: 100%; 
+}
+
+@media (max-width: 768px) {
+  #logo {
+    width: 150px; 
+  }
+}
+
+.nav-link:hover {
+    color: black !important;
+    background-color: var(--logo-color);
+    border: var(--logo-color) 1px solid;
+    border-radius: 20px;
+    
+}
+
+.navbar-toggler-icon {
+  filter: invert(1); 
+}
+
+
+#navbarNav .nav-link {
+    color: var(--logo-color);
+    font-size: var(--font-size-m);
+}
+
+.navbar-toggler {
+    color: var(--logo-color);
+}
+
+.navbar {
+    position: sticky;
+}
+
+#landing {
+    background-color: black;
+}
+
+.img-fluid {
+    border-radius: 200px;
+    margin-top: 50px;
+    margin-left: 100px;
+    max-width: 200px;
+    width: 100%;
+}
+
+#landing .text-block {
+  max-width: 400px; 
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  word-break: break-word;
+  line-height: 1.6; 
+  color: white; 
+}
+
+#text-title {
+    color: var(--logo-color) !important;
+    margin-bottom: 40px;
+}
+
+#landing em {
+    color: var(--logo-color);
+    font-weight: var(--font-weight-semibold);
+}
+
+.col {
+    border: var(--dark-color) 1px solid;
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+}
+
+.col p {
+    max-width: 300px; 
+    margin-left: auto;
+    margin-right: auto;
+    word-break: break-word;
+    line-height: 1.6; 
+    color: var(--light-pink-color); 
+}
+
+#projects h3 {
+    color: var(--secondary-color);
+    font-weight: var(--font-weight-semibold);
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#course h3 {
+    color: var(--secondary-color);
+    font-weight: var(--font-weight-semibold);
+    padding-bottom: 10px;
+    padding-top: 0px;
+}
+
+#booking h3 {
+    color: var(--secondary-color);
+    font-weight: var(--font-weight-semibold);
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#ecom-app h3 {
+    color: var(--secondary-color);
+    font-weight: var(--font-weight-semibold);
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#e-com {
+    max-width: 400px;
+    width: 100%;
+}
+
+#course {
+    max-width: 320px;
+    width: 100%;
+}
+
+#booking {
+    max-width: 200px;
+    width: 100%;
+    padding-top: 10px;
+}
+
+#ecom-app {
+    max-width: 400px;
+    width: 100%;
+    padding-top: 10px;
+}
+
+#airline {
+    max-width: 300px;
+    width: 100%;
+    padding-top: 10px;
+}
+
+#prototype {
+    max-width: 300px;
+    width: 100%;
+    padding-top: 10px;
+}
+
+#projects {
+    background: var(--primary-color);
+}
+
+#project-title {
+    color: var(--secondary-color);
+    font-weight: var(--font-weight-bold);
+    
+}
+
+#projects p {
+    color: var(--light-pink-color);
+}
+
+#fullstack {
+    max-width: 230px;
+    width: 100%;
+    padding-top: 10px;
+}
+
+#html5 {
+    max-width: 100px;
+    width: 100%;
+    border-radius: 50px;
+}
+
+#css {
+    max-width: 100px;
+    width: 100%;
+    border-radius: 50px;
+}
+
+#bootstrap {
+    max-width: 100px;
+    width: 100%;
+    border-radius: 50px;
+}
+
+#js {
+    max-width: 100px;
+    width: 100%;
+    border-radius: 50px;
+}
+
+#monggo {
+    max-width: 100px;
+    width: 100%;
+    
+}
+
+#react {
+    max-width: 100px;
+    width: 100%;
+    
+}
+
+#express {
+    max-width: 100px;
+    width: 100%;
+    
+}
+
+#node {
+    max-width: 100px;
+    width: 100%;
+    
+}
+
+#git {
+    max-width: 100px;
+    width: 100%;
+    
+}
+
+#heroku {
+    max-width: 100px;
+    width: 100%;
+    
+}
+
+#sublime {
+    max-width: 100px;
+    width: 100%;
+    
+}
+
+#postman {
+    max-width: 60px;
+    width: 100%;
+    
+}
+
+
+
+#tools {
+    background: var(--primary-color);
+    
+}
+
+#tools h1 {
+    color: var(--logo-color);
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+#tools h3 {
+    color: var(--logo-color);
+    margin-top: 10px;
+}
+
+.map-container {
+  width: 100%;
+  height: 450px; 
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.map-container iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+
+.contact-input,
+.contact-textarea {
+  max-width: 500px;
+  width: 100%;
+  font-size: 1rem;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.contact-textarea {
+  resize: none;
+}
+
+@media (max-width: 767px) {
+  .map-container {
+    height: 300px; 
+  }
+}
+
+#contact {
+    background-color: black;
+    width: 100vw;
+    padding: 50px 0;
+}
+
+#submit {
+    background: var(--secondary-color);
+    color: var(--dark-color);
+    border: var(--secondary-color) 1px solid;
+    font-weight: var(--font-weight-semibold);
+    margin-right: 350px;
+}
+
+#submit:hover {
+    background: var(--primary-color);
+    color: var(--light-pink-color)
+}
+
+#contact h2 {
+    color: var(--secondary-color);
+    font-weight: var(--font-weight-bold);
+}
+
+#fb {
+    width: 8%;
+    height: 8%;
+    border-radius: 20px;
+}
+
+#ig {
+    width: 10%;
+    height: 10%;
+    border-radius: 20px;
+}
+
+#x {
+    width: 10%;
+    height: 10%;
+    border-radius: 20px;
+}
+
+#footer {
+    background: black;
+    color: var(--logo-color);
+    font-size: var(--font-size-s);
+    padding-top: 50px;
+    border-top: var(--logo-color) 1px solid;
+
+}
