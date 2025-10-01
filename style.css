@@ -197,8 +197,44 @@ html {
     background: var(--primary-color);
 }
 
+#tools .text-decoration-none {
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 22px;
+    background-color: var(--logo-color);
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+#contact .text-decoration-none {
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: var(--dark-color);
+    font-size: 22px;
+    background-color: var(--logo-color);
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+#project-title .text-decoration-none {
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 22px;
+    background-color: var(--logo-color);
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
 #project-title {
-    color: var(--secondary-color);
+    
     font-weight: var(--font-weight-bold);
     
 }
